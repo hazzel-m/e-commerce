@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopEasy - Your One-Stop Shopping Destination</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <a href="index.html">
+            <h1>Shop<span class="accent">Easy</span></h1>
+          </a>
+        </div>
+        
+        <nav class="desktop-nav">
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        
+        <div class="header-actions">
+          <div class="search-box">
+            <input type="text" placeholder="Search...">
+            <i class="fas fa-search"></i>
+          </div>
+          <button class="icon-btn">
+            <i class="fas fa-user"></i>
+          </button>
+          <button class="icon-btn cart-btn">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+          </button>
+          <button class="primary-btn">Shop Now</button>
+        </div>
+        
+        <button class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      
+      <div class="mobile-menu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="mobile-search">
+          <input type="text" placeholder="Search...">
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="mobile-actions">
+          <button class="icon-btn">
+            <i class="fas fa-user"></i>
+          </button>
+          <button class="icon-btn cart-btn">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+          </button>
+          <button class="primary-btn">Shop Now</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Banner Section -->
+    <section class="hero-slider">
+      <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1555529771-122e5d9f2341?w=1200&auto=format&fit=crop&q=60');">
+        <div class="container">
+          <div class="hero-content">
+            <h2>Summer Sale</h2>
+            <p>Up to 50% off on selected items</p>
+            <button class="primary-btn">Shop Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1511556820780-d912e42b4980?w=1200&auto=format&fit=crop&q=60');">
+        <div class="container">
+          <div class="hero-content">
+            <h2>New Arrivals</h2>
+            <p>Check out our latest products</p>
+            <button class="primary-btn">Explore</button>
+          </div>
+        </div>
+      </div>
+      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=1200&auto=format&fit=crop&q=60');">
+        <div class="container">
+          <div class="hero-content">
+            <h2>Free Shipping</h2>
+            <p>On orders over $50</p>
+            <button class="primary-btn">Learn More</button>
+          </div>
+        </div>
+      </div>
+      <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+      <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+      <div class="slider-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Shop by Category</h2>
+          <p>Browse our wide range of products</p>
+        </div>
+        
+        <div class="categories-grid">
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-home"></i>
+            </div>
+            <h3>Home & Kitchen</h3>
+            <p>24 Products</p>
+          </div>
+          
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h3>Electronics</h3>
+            <p>38 Products</p>
+          </div>
+          
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-couch"></i>
+            </div>
+            <h3>Furniture</h3>
+            <p>16 Products</p>
+          </div>
+          
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-seedling"></i>
+            </div>
+            <h3>Garden</h3>
+            <p>19 Products</p>
+          </div>
+          
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-gamepad"></i>
+            </div>
+            <h3>Toys & Games</h3>
+            <p>27 Products</p>
+          </div>
+          
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-tshirt"></i>
+            </div>
+            <h3>Fashion</h3>
+            <p>45 Products</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="featured-products section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Featured Products</h2>
+          <p>Check out our bestsellers</p>
+        </div>
+        
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-badges">
+              <span class="badge new">NEW</span>
+            </div>
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=60" alt="Wireless Headphones">
+            </div>
+            <div class="product-info">
+              <div class="product-category">Electronics</div>
+              <h3 class="product-title">Wireless Bluetooth Headphones</h3>
+              <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>4.5</span>
+              </div>
+              <div class="product-price">
+                <span class="current-price">$89.99</span>
+                <span class="old-price">$129.99</span>
+              </div>
+            </div>
+            <button class="product-cart-btn">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+          </div>
+          
+          <div class="product-card">
+            <div class="product-badges">
+              <span class="badge bestseller">BESTSELLER</span>
+            </div>
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800&auto=format&fit=crop&q=60" alt="Modern Accent Chair">
+            </div>
+            <div class="product-info">
+              <div class="product-category">Furniture</div>
+              <h3 class="product-title">Modern Accent Chair</h3>
+              <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>4.8</span>
+              </div>
+              <div class="product-price">
+                <span class="current-price">$249.99</span>
+                <span class="old-price">$349.99</span>
+              </div>
+            </div>
+            <button class="product-cart-btn">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+          </div>
+          
+          <div class="product-card">
+            <div class="product-badges">
+              <span class="badge new">NEW</span>
+            </div>
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=60" alt="Smart Watch">
+            </div>
+            <div class="product-info">
+              <div class="product-category">Electronics</div>
+              <h3 class="product-title">Smart Watch Series 7</h3>
+              <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span>4.2</span>
+              </div>
+              <div class="product-price">
+                <span class="current-price">$199.99</span>
+              </div>
+            </div>
+            <button class="product-cart-btn">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+          </div>
+          
+          <div class="product-card">
+            <div class="product-badges">
+              <span class="badge sale">20% OFF</span>
+            </div>
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1620799139834-6b8f844fbe61?w=800&auto=format&fit=crop&q=60" alt="Cotton T-Shirt">
+            </div>
+            <div class="product-info">
+              <div class="product-category">Fashion</div>
+              <h3 class="product-title">Premium Cotton T-Shirt</h3>
+              <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>5.0</span>
+              </div>
+              <div class="product-price">
+                <span class="current-price">$24.99</span>
+                <span class="old-price">$29.99</span>
+              </div>
+            </div>
+            <button class="product-cart-btn">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+        
+        <div class="section-footer">
+          <button class="secondary-btn">View All Products</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section">
+      <div class="container">
+        <div class="section-header">
+          <h2>What Our Customers Say</h2>
+          <p>Read testimonials from our satisfied customers</p>
+        </div>
+        
+        <div class="testimonials-slider">
+          <div class="testimonial-card active">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">"I absolutely love shopping at ShopEasy! The variety of products is amazing, and the delivery is always on time. Their customer service is exceptional too."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <span>S</span>
+              </div>
+              <div class="author-info">
+                <h4>Sarah Johnson</h4>
+                <p>Regular Customer</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-card">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="testimonial-text">"The quality of the products I've purchased from ShopEasy has always been top-notch. I especially love their electronics section - great prices and excellent selection!"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <span>D</span>
+              </div>
+              <div class="author-info">
+                <h4>David Kim</h4>
+                <p>Tech Enthusiast</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-card">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">"As a small business owner, ShopEasy's wholesale service has been a game-changer for me. Great bulk prices and their account manager is always helpful!"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <span>M</span>
+              </div>
+              <div class="author-info">
+                <h4>Maria Rodriguez</h4>
+                <p>Business Owner at Sweet Treats</p>
+              </div>
+            </div>
+          </div>
+          
+          <button class="slider-btn prev testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+          <button class="slider-btn next testimonial-next"><i class="fas fa-chevron-right"></i></button>
+          
+          <div class="slider-dots testimonial-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter section">
+      <div class="container">
+        <div class="newsletter-box">
+          <div class="newsletter-content">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Get the latest updates, deals, and special offers straight to your inbox.</p>
+          </div>
+          <form class="newsletter-form">
+            <div class="form-group">
+              <input type="email" placeholder="Enter your email" required>
+              <button type="submit" class="primary-btn">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-column">
+          <h2 class="footer-logo">Shop<span class="accent">Easy</span></h2>
+          <p>Your one-stop shop for all your daily needs. Quality products, great prices, delivered with care.</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+            <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+            <li><a href="services.html"><i class="fas fa-chevron-right"></i> Services</a></li>
+            <li><a href="blog.html"><i class="fas fa-chevron-right"></i> Blog</a></li>
+            <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+            <li><a href="privacy-policy.html"><i class="fas fa-chevron-right"></i> Privacy Policy</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3>Contact Info</h3>
+          <ul class="contact-info">
+            <li><i class="fas fa-map-marker-alt"></i> 1234 Market St, Suite 900<br>San Francisco, CA 94103</li>
+            <li><i class="fas fa-phone-alt"></i> <a href="tel:+1234567890">+1 (234) 567-890</a></li>
+            <li><i class="fas fa-envelope"></i> <a href="mailto:info@shopeasy.com">info@shopeasy.com</a></li>
+            <li><i class="fas fa-clock"></i> Monday-Friday: 9am - 6pm<br>Saturday: 10am - 4pm<br>Sunday: Closed</li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3>Newsletter</h3>
+          <p>Subscribe to receive updates, access to exclusive deals, and more.</p>
+          <form class="footer-newsletter">
+            <div class="form-group">
+              <input type="email" placeholder="Enter your email">
+              <button type="submit"><i class="fas fa-paper-plane"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> ShopEasy. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Element -->
+  <div class="toast-container">
+    <!-- Toast notifications will be inserted here by JavaScript -->
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
