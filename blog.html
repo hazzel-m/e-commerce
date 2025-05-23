@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | ShopEasy</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <a href="index.html">
+            <h1>Shop<span class="accent">Easy</span></h1>
+          </a>
+        </div>
+        
+        <nav class="desktop-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html" class="active">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        
+        <div class="header-actions">
+          <div class="search-box">
+            <input type="text" placeholder="Search...">
+            <i class="fas fa-search"></i>
+          </div>
+          <button class="icon-btn">
+            <i class="fas fa-user"></i>
+          </button>
+          <button class="icon-btn cart-btn">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+          </button>
+          <button class="primary-btn">Shop Now</button>
+        </div>
+        
+        <button class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      
+      <div class="mobile-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="blog.html" class="active">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="mobile-search">
+          <input type="text" placeholder="Search...">
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="mobile-actions">
+          <button class="icon-btn">
+            <i class="fas fa-user"></i>
+          </button>
+          <button class="icon-btn cart-btn">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+          </button>
+          <button class="primary-btn">Shop Now</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Blog Hero Section -->
+    <section class="page-hero" style="background-image: url('https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&auto=format&fit=crop&q=60');">
+      <div class="container">
+        <h1>Our Blog</h1>
+        <p>Insights, tips, and news from the ShopEasy team</p>
+      </div>
+    </section>
+
+    <!-- Blog Posts Section -->
+    <section class="blog-section section">
+      <div class="container">
+        <div class="blog-grid">
+          <!-- Featured Post -->
+          <div class="featured-post">
+            <div class="blog-card featured">
+              <div class="blog-image">
+                <img src="https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?w=800&auto=format&fit=crop&q=60" alt="Shopping Trends">
+                <div class="blog-badge">Featured</div>
+              </div>
+              <div class="blog-content">
+                <div class="blog-meta">
+                  <span class="blog-category">Shopping</span>
+                  <span class="blog-date">May 15, 2023</span>
+                </div>
+                <h3 class="blog-title">Top 10 Shopping Trends in 2023 You Need to Know About</h3>
+                <p class="blog-excerpt">Explore the latest shopping trends that are reshaping the retail industry this year, from sustainable shopping to the rise of social commerce.</p>
+                <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Regular Posts -->
+          <div class="blog-card">
+            <div class="blog-image">
+              <img src="https://images.unsplash.com/photo-1515436634787-de6bc026ab30?w=800&auto=format&fit=crop&q=60" alt="Home Organization">
+            </div>
+            <div class="blog-content">
+              <div class="blog-meta">
+                <span class="blog-category">Home</span>
+                <span class="blog-date">May 10, 2023</span>
+              </div>
+              <h3 class="blog-title">10 Home Organization Products That Will Change Your Life</h3>
+              <p class="blog-excerpt">Discover innovative organization solutions that can transform your living spaces and make daily life more efficient.</p>
+              <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          
+          <div class="blog-card">
+            <div class="blog-image">
+              <img src="https://images.unsplash.com/photo-1507764923504-cd90bf7da772?w=800&auto=format&fit=crop&q=60" alt="Tech Reviews">
+            </div>
+            <div class="blog-content">
+              <div class="blog-meta">
+                <span class="blog-category">Technology</span>
+                <span class="blog-date">May 5, 2023</span>
+              </div>
+              <h3 class="blog-title">The Best Budget-Friendly Tech Gadgets of 2023</h3>
+              <p class="blog-excerpt">You don't need to break the bank to enjoy the latest technology. Here are our top picks for affordable yet high-quality gadgets.</p>
+              <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          
+          <div class="blog-card">
+            <div class="blog-image">
+              <img src="https://images.unsplash.com/photo-1606335543042-57c525922933?w=800&auto=format&fit=crop&q=60" alt="Fashion Tips">
+            </div>
+            <div class="blog-content">
+              <div class="blog-meta">
+                <span class="blog-category">Fashion</span>
+                <span class="blog-date">April 28, 2023</span>
+              </div>
+              <h3 class="blog-title">5 Wardrobe Essentials Everyone Should Own</h3>
+              <p class="blog-excerpt">Build a versatile and timeless wardrobe with these five essential pieces that will never go out of style.</p>
+              <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          
+          <div class="blog-card">
+            <div class="blog-image">
+              <img src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?w=800&auto=format&fit=crop&q=60" alt="Healthy Recipes">
+            </div>
+            <div class="blog-content">
+              <div class="blog-meta">
+                <span class="blog-category">Kitchen</span>
+                <span class="blog-date">April 22, 2023</span>
+              </div>
+              <h3 class="blog-title">Must-Have Kitchen Gadgets for Healthy Cooking</h3>
+              <p class="blog-excerpt">Equip your kitchen with these innovative tools that make preparing nutritious meals easier and more enjoyable.</p>
+              <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          
+          <div class="blog-card">
+            <div class="blog-image">
+              <img src="https://images.unsplash.com/photo-1601758260946-d37677f672b2?w=800&auto=format&fit=crop&q=60" alt="Online Shopping">
+            </div>
+            <div class="blog-content">
+              <div class="blog-meta">
+                <span class="blog-category">E-Commerce</span>
+                <span class="blog-date">April 15, 2023</span>
+              </div>
+              <h3 class="blog-title">7 Tips for Safe and Secure Online Shopping</h3>
+              <p class="blog-excerpt">Protect yourself while shopping online with these essential security tips and best practices for a worry-free experience.</p>
+              <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Pagination -->
+        <div class="pagination">
+          <button class="pagination-btn active">1</button>
+          <button class="pagination-btn">2</button>
+          <button class="pagination-btn">3</button>
+          <span class="pagination-separator">...</span>
+          <button class="pagination-btn">10</button>
+          <button class="pagination-btn next">
+            Next <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories & Recent Posts Section -->
+    <section class="blog-sidebar-section section bg-light">
+      <div class="container">
+        <div class="blog-sidebar-grid">
+          <!-- Categories -->
+          <div class="sidebar-widget">
+            <h3 class="widget-title">Categories</h3>
+            <ul class="category-list">
+              <li><a href="#">Shopping <span>(12)</span></a></li>
+              <li><a href="#">Technology <span>(8)</span></a></li>
+              <li><a href="#">Fashion <span>(10)</span></a></li>
+              <li><a href="#">Home & Kitchen <span>(15)</span></a></li>
+              <li><a href="#">Health & Beauty <span>(7)</span></a></li>
+              <li><a href="#">E-Commerce <span>(5)</span></a></li>
+            </ul>
+          </div>
+          
+          <!-- Recent Posts -->
+          <div class="sidebar-widget">
+            <h3 class="widget-title">Recent Posts</h3>
+            <ul class="recent-posts">
+              <li>
+                <div class="post-image">
+                  <img src="https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?w=150&auto=format&fit=crop&q=60" alt="Shopping Trends">
+                </div>
+                <div class="post-info">
+                  <h4><a href="#">Top 10 Shopping Trends in 2023</a></h4>
+                  <span>May 15, 2023</span>
+                </div>
+              </li>
+              <li>
+                <div class="post-image">
+                  <img src="https://images.unsplash.com/photo-1515436634787-de6bc026ab30?w=150&auto=format&fit=crop&q=60" alt="Home Organization">
+                </div>
+                <div class="post-info">
+                  <h4><a href="#">10 Home Organization Products</a></h4>
+                  <span>May 10, 2023</span>
+                </div>
+              </li>
+              <li>
+                <div class="post-image">
+                  <img src="https://images.unsplash.com/photo-1507764923504-cd90bf7da772?w=150&auto=format&fit=crop&q=60" alt="Tech Reviews">
+                </div>
+                <div class="post-info">
+                  <h4><a href="#">The Best Budget-Friendly Tech Gadgets</a></h4>
+                  <span>May 5, 2023</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          
+          <!-- Subscribe -->
+          <div class="sidebar-widget">
+            <h3 class="widget-title">Subscribe</h3>
+            <p>Get the latest blog posts delivered directly to your inbox.</p>
+            <form class="subscribe-form">
+              <div class="form-group">
+                <input type="email" placeholder="Enter your email">
+                <button type="submit" class="primary-btn">Subscribe</button>
+              </div>
+            </form>
+          </div>
+          
+          <!-- Tags -->
+          <div class="sidebar-widget">
+            <h3 class="widget-title">Popular Tags</h3>
+            <div class="tag-cloud">
+              <a href="#" class="tag">Shopping</a>
+              <a href="#" class="tag">Electronics</a>
+              <a href="#" class="tag">Fashion</a>
+              <a href="#" class="tag">Home Decor</a>
+              <a href="#" class="tag">Gadgets</a>
+              <a href="#" class="tag">Sale</a>
+              <a href="#" class="tag">Tips</a>
+              <a href="#" class="tag">Reviews</a>
+              <a href="#" class="tag">Trends</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter section">
+      <div class="container">
+        <div class="newsletter-box">
+          <div class="newsletter-content">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Get the latest updates, deals, and special offers straight to your inbox.</p>
+          </div>
+          <form class="newsletter-form">
+            <div class="form-group">
+              <input type="email" placeholder="Enter your email" required>
+              <button type="submit" class="primary-btn">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-column">
+          <h2 class="footer-logo">Shop<span class="accent">Easy</span></h2>
+          <p>Your one-stop shop for all your daily needs. Quality products, great prices, delivered with care.</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+            <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+            <li><a href="services.html"><i class="fas fa-chevron-right"></i> Services</a></li>
+            <li><a href="blog.html"><i class="fas fa-chevron-right"></i> Blog</a></li>
+            <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+            <li><a href="privacy-policy.html"><i class="fas fa-chevron-right"></i> Privacy Policy</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3>Contact Info</h3>
+          <ul class="contact-info">
+            <li><i class="fas fa-map-marker-alt"></i> 1234 Market St, Suite 900<br>San Francisco, CA 94103</li>
+            <li><i class="fas fa-phone-alt"></i> <a href="tel:+1234567890">+1 (234) 567-890</a></li>
+            <li><i class="fas fa-envelope"></i> <a href="mailto:info@shopeasy.com">info@shopeasy.com</a></li>
+            <li><i class="fas fa-clock"></i> Monday-Friday: 9am - 6pm<br>Saturday: 10am - 4pm<br>Sunday: Closed</li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3>Newsletter</h3>
+          <p>Subscribe to receive updates, access to exclusive deals, and more.</p>
+          <form class="footer-newsletter">
+            <div class="form-group">
+              <input type="email" placeholder="Enter your email">
+              <button type="submit"><i class="fas fa-paper-plane"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> ShopEasy. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Element -->
+  <div class="toast-container">
+    <!-- Toast notifications will be inserted here by JavaScript -->
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
